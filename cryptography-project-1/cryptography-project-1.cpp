@@ -184,7 +184,6 @@ std::vector<std::string> getPossibleSolutions(std::string userCipher) {
 //this can be highly optimized, mainly by eliminating low frequency words, and using simply most often used word endings like 'ing', 'ed', 'ly', etc.
 std::string bestGuess(std::vector<std::string> plainTextList) {
 	Dictionary dict;
-	int count = 0;
 	int numWords[26] = { 0 };
 	std::string word;
 
