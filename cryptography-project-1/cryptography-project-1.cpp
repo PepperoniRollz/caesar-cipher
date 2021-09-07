@@ -1,4 +1,3 @@
-//Corey Fitzpatrick
 //Cryptography 8/17/2021
 
 #include <iostream>
